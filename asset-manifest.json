@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/safe-space-poc/static/css/main.f37a0ece.css",
+    "main.js": "/safe-space-poc/static/js/main.84c34adc.js",
+    "static/js/787.1a964dcf.chunk.js": "/safe-space-poc/static/js/787.1a964dcf.chunk.js",
+    "index.html": "/safe-space-poc/index.html",
+    "main.f37a0ece.css.map": "/safe-space-poc/static/css/main.f37a0ece.css.map",
+    "main.84c34adc.js.map": "/safe-space-poc/static/js/main.84c34adc.js.map",
+    "787.1a964dcf.chunk.js.map": "/safe-space-poc/static/js/787.1a964dcf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f37a0ece.css",
+    "static/js/main.84c34adc.js"
+  ]
+}
