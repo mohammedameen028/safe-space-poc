@@ -18,8 +18,9 @@ const ReportForm = () => {
     <>
       <DashboardHeader />
       <Paper
-        style={{ marginLeft: "10%", width: "80%", height: "100%" }}
-        elevation={3}
+        style={{ marginLeft: "10%", width: "80%", height: "100%", backgroundColor: '#20124d', color: '#da4360' }}
+        elevation={24}
+        
       >
         <div style={{ textAlign: "center" }}>
           <h1 style={{ paddingTop: "20px" }}>Report Form</h1>
@@ -40,6 +41,7 @@ const ReportForm = () => {
                   id="outlined-basic"
                   label="Full Name"
                   variant="outlined"
+                  sx={{ input: { color: '#b4a7d6'} }}
                 />
               </div>
               <div style={{ padding: "20px" }}>
@@ -47,6 +49,7 @@ const ReportForm = () => {
                   id="outlined-basic"
                   label="Email"
                   variant="outlined"
+                  sx={{ input: { color: '#b4a7d6'} }}
                 />
               </div>
               <div style={{ padding: "20px" }}>
@@ -54,6 +57,7 @@ const ReportForm = () => {
                   id="outlined-basic"
                   label="Phone"
                   variant="outlined"
+                  sx={{ input: { color: '#b4a7d6'} }}
                 />
               </div>
             </>
@@ -63,14 +67,15 @@ const ReportForm = () => {
             <textarea
               id="w3review"
               name="w3review"
-              rows="10"
-              cols="50"
+              rows="20"
+              cols="70"
               placeholder="Type detail description here..."
+              style={{ color: '#b4a7d6', backgroundColor: '#20124d'}}
             ></textarea>
           </div>
           <div style={{ padding: "20px", display: 'flex', justifyContent: 'center'}}>
-            <Button style = {{width: '80px'}} variant="contained">Submit</Button>
-            <Button style = {{width: '80px'}} variant="outlined">Cancel</Button>
+            <Button style = {{width: '80px', color: '#20124d', backgroundColor: '#b4a7d6', fontWeight: 'bolder'}} variant="contained">Submit</Button>
+            <Button style = {{width: '80px', marginLeft: '20px', color: '#20124d', backgroundColor: '#b4a7d6', fontWeight: 'bolder'}} variant="contained">Cancel</Button>
           </div>
         </div>
       </Paper>
