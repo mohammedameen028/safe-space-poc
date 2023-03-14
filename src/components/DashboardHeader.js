@@ -22,9 +22,9 @@ return(
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            App
+            Safe Space App
           </Typography>
-          <Button color="inherit" style={{fontWeight: 'bold'}}>Admin</Button>
+          <Button color="inherit" style={{fontWeight: 'bold'}} onClick={() => window.location.href = '/admin'}>Admin</Button>
         </Toolbar>
       </AppBar>
     </Box>
